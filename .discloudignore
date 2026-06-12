@@ -1,0 +1,10 @@
+.venv
+.git
+__pycache__
+.pytest_cache
+.mypy_cache
+tests
+var
+build
+dist
+discord_marketplace_server.egg-info

@@ -11,3 +11,320 @@ sales:
   closed_carts_category_name: "🗃️・Carrinhos fechados"
   logs_channel_name: "┃📋・logs-vendas"
   staff_role_key: staff
+
+roles:
+  - key: staff
+    name: Staff
+    color: "#39FF14"
+    hoist: true
+    mentionable: false
+    permissions: []
+
+  - key: vendedor
+    name: Vendedor
+    color: "#57F287"
+    hoist: true
+    mentionable: false
+    permissions: []
+
+  - key: cliente
+    name: Cliente
+    color: "#FEE75C"
+    hoist: false
+    mentionable: false
+    permissions: []
+
+categories:
+  - key: inicio
+    name: "📌・Início"
+    private: false
+    channels:
+      - key: entrou
+        name: "┃✈️・entrou"
+        topic: Boas-vindas e entrada de novos membros.
+      - key: termos
+        name: "┃📕・termos"
+        topic: Termos de uso da PRIMO Store.
+      - key: regras
+        name: "┃🧾・regras"
+        topic: Regras obrigatorias do servidor.
+      - key: avisos
+        name: "┃🔔・avisos"
+        topic: Comunicados oficiais.
+      - key: link_dc
+        name: "┃👥・link-dc"
+        topic: Links oficiais da comunidade.
+      - key: sorteios
+        name: "┃🎉・sorteios"
+        topic: Sorteios e campanhas permitidas.
+      - key: drops
+        name: "┃📦・drops"
+        topic: Novidades, drops e atualizacoes.
+      - key: redes_sociais
+        name: "└🔗・redes-sociais"
+        topic: Redes sociais oficiais.
+
+  - key: fivem
+    name: "🔫・Fivem"
+    private: false
+    channels:
+      - key: art_menu
+        name: "┃🔫・art-menu"
+        topic: Artes, menus visuais e materiais de apresentacao.
+      - key: art_external_completo
+        name: "┃🔫・art-external-completo"
+        topic: Pacotes visuais completos e autorizados.
+      - key: arte_personalizada
+        name: "┃🔫・arte-personalizada"
+        topic: Artes personalizadas para projetos.
+      - key: rockstar_suporte
+        name: "┃🔫・r0ckst4r-suporte"
+        topic: Orientacoes de suporte e configuracao autorizada.
+      - key: gta5_steam
+        name: "┃🔫・gta5-steam"
+        topic: Organizacao e suporte para GTA V na Steam.
+      - key: fix_rockstar
+        name: "┃⚙️・fix-rockstar"
+        topic: Ajuda com instalacao, configuracao e erros comuns.
+      - key: dois_fatores
+        name: "└🌐・2fa-guia"
+        topic: Guia de seguranca e autenticacao em dois fatores.
+
+  - key: acessos
+    name: "👤・Acessos"
+    private: false
+    channels:
+      - key: steam_suporte
+        name: "┃👤・st3am-suporte"
+        topic: Suporte para acesso proprio e configuracoes permitidas.
+      - key: discord_seguranca
+        name: "└👤・disc0rd-seguranca"
+        topic: Seguranca de conta, protecao e recuperacao oficial.
+
+  - key: discord
+    name: "💢・Discord"
+    private: false
+    channels:
+      - key: decoracao
+        name: "┃💢・dec0ração"
+        topic: Decoracao de perfil, canais e servidores.
+      - key: boost_info
+        name: "┃💢・boost-info"
+        topic: Informacoes sobre boosts e beneficios oficiais.
+      - key: template_dc
+        name: "┃💢・template-dc"
+        topic: Templates permitidos para servidores.
+      - key: perfis
+        name: "└💢・perfis"
+        topic: Ideias de personalizacao permitida de perfil.
+
+  - key: assinaturas
+    name: "💎・Assinaturas"
+    private: false
+    channels:
+      - key: youtube
+        name: "┃💎・y0utub3"
+        topic: Organizacao e suporte de assinaturas autorizadas.
+      - key: netflix
+        name: "┃💎・n3tfl1x"
+        topic: Consultoria e gestao permitida de planos.
+      - key: disney
+        name: "┃💎・d1sn3y"
+        topic: Suporte e orientacao de assinatura autorizada.
+      - key: crunchyroll
+        name: "┃💎・crunchyr0ll"
+        topic: Suporte e orientacao de assinatura autorizada.
+      - key: prime_video
+        name: "┃💎・pr1me・v1de0"
+        topic: Suporte e orientacao de assinatura autorizada.
+      - key: hbo_max
+        name: "┃💎・hb0・m4x"
+        topic: Suporte e orientacao de assinatura autorizada.
+      - key: spotify
+        name: "┃💎・sp0t1fy"
+        topic: Suporte e orientacao de assinatura autorizada.
+      - key: deezer
+        name: "┃💎・de3zer"
+        topic: Suporte e orientacao de assinatura autorizada.
+      - key: capcut
+        name: "┃💎・c4pcut"
+        topic: Suporte e orientacao de assinatura autorizada.
+      - key: chatgpt
+        name: "┃💎・ch4t・gpt"
+        topic: Consultoria de uso e configuracao autorizada.
+      - key: canva
+        name: "┃💎・c4nva・pr0"
+        topic: Suporte e orientacao de assinatura autorizada.
+      - key: duolingo
+        name: "└💎・duolingo"
+        topic: Suporte e orientacao de assinatura autorizada.
+
+  - key: programas
+    name: "👾・Programas"
+    private: false
+    channels:
+      - key: premiere
+        name: "┃👾・pr3m1er3"
+        topic: Setup e suporte autorizado.
+      - key: photoshop
+        name: "┃👾・ph0t0sh0p"
+        topic: Setup e suporte autorizado.
+      - key: sony_vegas
+        name: "┃👾・s0ny・v3g4s"
+        topic: Setup e suporte autorizado.
+      - key: after_effects
+        name: "└👾・aft3r・eff3cts"
+        topic: Setup e suporte autorizado.
+
+  - key: jogos
+    name: "🎮・jogos"
+    private: false
+    channels:
+      - key: steam_jogos
+        name: "┃🎮・st3am・jog0s"
+        topic: Jogos e suporte permitido na Steam.
+      - key: minecraft_suporte
+        name: "└🎮・m1necraft-suporte"
+        topic: Suporte e orientacao permitida para Minecraft.
+
+  - key: jogos_populares
+    name: "🔥・Jogos Populares"
+    private: false
+    channels:
+      - key: jogos_steam_famosos
+        name: "┃👑・j0gos・st3am・fam0sos"
+        topic: Destaques e recomendacoes de jogos.
+      - key: combos_jogos
+        name: "┃🎮・c0mbos・de・j0gos"
+        topic: Combos e listas de jogos permitidos.
+      - key: jogos_esportes
+        name: "┃⚽・j0gos・de・esp0rtes"
+        topic: Jogos de esportes.
+      - key: jogos_simulador
+        name: "┃⚙️・j0gos・de・simulador"
+        topic: Jogos de simulador.
+      - key: jogos_tiros
+        name: "┃🔫・j0gos・de・tiros"
+        topic: Jogos de tiro.
+      - key: jogos_luta
+        name: "┃🥊・j0gos・de・luta"
+        topic: Jogos de luta.
+      - key: jogos_rpg
+        name: "┃⚔️・j0gos・de・rpg"
+        topic: Jogos de RPG.
+      - key: jogos_lego
+        name: "└🧩・j0gos・de・lego"
+        topic: Jogos LEGO.
+
+  - key: influenciador
+    name: "📱・Influenciador"
+    private: false
+    channels:
+      - key: seja_divulgador
+        name: "┃📱・seja-divulgador"
+        topic: Parcerias, divulgadores e afiliados.
+
+  - key: suporte
+    name: "👤・Suporte"
+    private: false
+    channels:
+      - key: ticket
+        name: "┃🎟️・ticket"
+        topic: Atendimento manual por ticket.
+      - key: aguardando_atendimento
+        name: "🔒📞・aguardando-atendimento"
+        topic: Area interna para organizar atendimentos pendentes.
+        private: true
+        allowed_role_keys:
+          - staff
+
+  - key: feedback
+    name: "✨┃FeedBack"
+    private: false
+    channels:
+      - key: vendas
+        name: "┃💸・vendas"
+        topic: Registro de vendas permitidas.
+      - key: feedback
+        name: "└💡・feedback"
+        topic: Feedback dos clientes.
+
+  - key: comunidade
+    name: "🌍┃Comunidade"
+    private: false
+    channels:
+      - key: chat_geral
+        name: "┃🌐・chat-geral"
+        topic: Conversa geral da comunidade.
+      - key: chat_cliente
+        name: "└🌐・chat-cliente"
+        topic: Conversa para clientes e equipe.
+        private: true
+        allowed_role_keys:
+          - cliente
+          - staff
+
+  - key: ideias
+    name: "❗ Ideias e produtos futuros"
+    private: false
+    channels:
+      - key: ideias_produtos
+        name: "┃❗・ideias-e-produtos"
+        topic: Ideias, pedidos e sugestoes futuras.
+
+  - key: produtos_gratis
+    name: "🎁・produtos-grátis"
+    private: false
+    channels:
+      - key: ferramentas_gratis
+        name: "┃⚙️・free-tools"
+        topic: Brindes, ferramentas gratuitas e recursos permitidos.
+
+messages:
+  - key: boas_vindas
+    channel: entrou
+    title: "Bem-vindo à PRIMO Store"
+    body: |
+      Bem-vindo à PRIMO Store. Use os canais abaixo para ler regras, ver avisos, tirar dúvidas e acompanhar serviços digitais permitidos.
+    fields:
+      - name: Comece aqui
+        value: Leia termos, regras e como funciona o atendimento antes de negociar.
+
+  - key: termos
+    channel: termos
+    title: "Termos de uso"
+    body: |
+      A PRIMO Store organiza atendimento e divulgação de serviços digitais permitidos.
+      Não compartilhe senhas, tokens, dados pessoais ou acessos sensíveis.
+      Negociações devem respeitar leis aplicáveis, regras dos provedores e regras do Discord.
+
+  - key: regras
+    channel: regras
+    title: "Regras"
+    body: |
+      1. Sem phishing, spam, malware, golpes ou abuso.
+      2. Sem venda de contas Discord, tokens, convites customizados, boosts ou benefícios irregulares.
+      3. Sem clonagem, bypass, cheats, spoofers ou ferramentas de trapaça.
+      4. Serviços anunciados precisam ser legítimos, autorizados e claros.
+      5. A staff pode remover anúncios e membros que coloquem o servidor em risco.
+
+  - key: avisos
+    channel: avisos
+    title: "Avisos oficiais"
+    body: |
+      Este canal será usado para comunicados, mudanças no catálogo, promoções permitidas e atualizações importantes.
+
+  - key: ticket
+    channel: ticket
+    title: "Atendimento"
+    body: |
+      Envie sua dúvida neste canal ou chame a staff conforme orientação do servidor.
+      O ticket automático ainda não está ativo; por enquanto o atendimento é manual.
+
+  - key: feedback
+    channel: feedback
+    title: "Feedback"
+    body: |
+      Depois do atendimento, deixe seu feedback com clareza e respeito.
+
+catalog: []

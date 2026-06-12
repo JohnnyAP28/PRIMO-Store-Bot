@@ -1,0 +1,13 @@
+server:
+  name: PRIMO Store
+  apply_name: true
+  accent_color: "#39FF14"
+  archive_unmanaged: true
+  archive_category_name: "🗄️・ARQUIVO"
+
+sales:
+  enabled: true
+  carts_category_name: "🛒・Carrinhos"
+  closed_carts_category_name: "🗃️・Carrinhos fechados"
+  logs_channel_name: "┃📋・logs-vendas"
+  staff_role_key: staff
